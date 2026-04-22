@@ -1,15 +1,15 @@
 class SimulatorBuddy < Formula
   desc "Interactive selector for iOS simulators and devices"
   homepage "https://github.com/ipavlidakis/simulator-buddy"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ipavlidakis/simulator-buddy/releases/download/v#{version}/simulator-buddy-aarch64-apple-darwin.tar.gz"
-      sha256 "10016017776bcb7a27a2776d5f19a3d3e92e766eebb466a3682b960f84bfcd50"
+      sha256 "b7900f8aacf16b8da1759907c40029d8675b856d5412a95576ba0926d94fa260"
     else
       url "https://github.com/ipavlidakis/simulator-buddy/releases/download/v#{version}/simulator-buddy-x86_64-apple-darwin.tar.gz"
-      sha256 "16d199effaeecbf49c10befafdff9da046b778a56d812a3bafd6d06dbadf88fd"
+      sha256 "6f2a5130707be1f5ad25c0bd77f3aaab501ce61c6338f76b4aae68f6b698e52b"
     end
   end
 
