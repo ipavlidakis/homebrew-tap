@@ -6,10 +6,10 @@ class SimulatorBuddy < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ipavlidakis/simulator-buddy/releases/download/v#{version}/simulator-buddy-aarch64-apple-darwin.tar.gz"
-      sha256 "43bba4bd0fca907aa2ae4bb4c61a774820833d2a4de4222b09d253acaaa1bf84"
+      sha256 "10016017776bcb7a27a2776d5f19a3d3e92e766eebb466a3682b960f84bfcd50"
     else
       url "https://github.com/ipavlidakis/simulator-buddy/releases/download/v#{version}/simulator-buddy-x86_64-apple-darwin.tar.gz"
-      sha256 "5dad6947b98adada48db6bae507493c15f34868df2a027ccf234dd80afd0bae9"
+      sha256 "16d199effaeecbf49c10befafdff9da046b778a56d812a3bafd6d06dbadf88fd"
     end
   end
 
