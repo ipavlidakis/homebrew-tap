@@ -1,9 +1,9 @@
 class Ghpr < Formula
   desc "Native macOS GitHub PR review window, straight from your terminal"
   homepage "https://github.com/ipavlidakis/ghpr"
-  url "https://github.com/ipavlidakis/ghpr/releases/download/v0.1.2/ghpr-v0.1.2-arm64-macos.tar.gz"
-  sha256 "3cc787258a7a076311aaddda8997a66df1b486624bddd901a1bea4f349f901c8"
-  version "0.1.2"
+  url "https://github.com/ipavlidakis/ghpr/releases/download/v0.2.0/ghpr-v0.2.0-arm64-macos.tar.gz"
+  sha256 "ab2e2ac80914fa1c20f814511f32965ce92c4bfa0ee77c789e3938d5b66d9bae"
+  version "0.2.0"
   license "MIT"
 
   depends_on :macos
