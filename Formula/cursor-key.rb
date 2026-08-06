@@ -1,9 +1,9 @@
 class CursorKey < Formula
   desc "OpenAI-compatible local proxy for a Cursor subscription"
   homepage "https://github.com/ipavlidakis/cursor-key"
-  url "https://github.com/ipavlidakis/cursor-key/releases/download/v0.1.1/cursor-key-0.1.1.tgz"
-  version "0.1.1"
-  sha256 "4bb925831b8feb6337174034a10e3243866e19d31082139b48ab710fd706afec"
+  url "https://github.com/ipavlidakis/cursor-key/releases/download/v0.1.2/cursor-key-0.1.2.tgz"
+  version "0.1.2"
+  sha256 "c7ade563bdfb16d93db9356d58f50e8943d1c78fc15aa60ab2ce7b81b1d84187"
   license "MIT"
 
   depends_on "node"
