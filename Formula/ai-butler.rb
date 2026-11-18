@@ -4,7 +4,7 @@ class AiButler < Formula
   url "https://github.com/ipavlidakis/ai-butler/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "6b55a2af1e640a922fb438eaf3908ec6beb6ff4873b366006eb76e90c4851fbd"
 
-  depends_on macos: :any
+  depends_on macos: :sonoma
 
   def install
     inreplace "ai-butler",
