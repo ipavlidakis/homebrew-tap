@@ -1,8 +1,8 @@
 class AiButler < Formula
   desc "Clean up disposable scratch and build caches for settled T3 work"
   homepage "https://github.com/ipavlidakis/ai-butler"
-  url "https://github.com/ipavlidakis/ai-butler/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "b1e375290bbe141088c6b504364cabeeb455e81fab37dbca3f33e446bb08f151"
+  url "https://github.com/ipavlidakis/ai-butler/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "595459a0bc038397393b4ed0351d852fc9448f5cd25f287a837fa3230870586f"
 
   depends_on macos: :sonoma
 
@@ -33,5 +33,6 @@ class AiButler < Formula
     assert_equal 7, result.fetch("log_retention_days")
     assert_match "Scratch/tmp", result.fetch("pools").first
     assert_match "--hooks", shell_output("#{bin}/ai-butler install --help")
+    assert_match "addProjectCleanup", shell_output("#{bin}/ai-butler --help")
   end
 end
