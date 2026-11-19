@@ -1,8 +1,8 @@
 class AiButler < Formula
   desc "Clean up disposable scratch and build caches for settled T3 work"
   homepage "https://github.com/ipavlidakis/ai-butler"
-  url "https://github.com/ipavlidakis/ai-butler/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "bb01138bafff6c61b8a525b895ff790a9a611b4cef24498453b70dc9d6177655"
+  url "https://github.com/ipavlidakis/ai-butler/archive/refs/tags/v0.3.2.tar.gz"
+  sha256 "05cc10f758992944cd02af765a5a5a6e20cce3e63f282928701a9fa2d547de18"
 
   depends_on macos: :sonoma
 
